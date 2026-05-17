@@ -1,15 +1,8 @@
 <div align="center">
 
 <a href="https://github.com/offici5l/MiCommunityTool/releases/latest">
-  <img src="https://img.shields.io/badge/migate-%23FF6900?style=flat&logo=xiaomi&logoColor=white" alt="MiCommunityTool" width="100"/>
+  <img src="https://img.shields.io/badge/MiCommunityTool-%23FF6900?style=flat&logo=xiaomi&logoColor=white" alt="MiCommunityTool" width="100"/>
 </a>
-
-**Mi Community gateway for Python**
-
----
-
-[![Version](https://img.shields.io/pypi/v/micommunity?label=Version&labelColor=black&color=brightgreen)](https://pypi.org/project/micommunity/)
-[![Changelog](https://img.shields.io/badge/Changelog-blue?style=flat&logoColor=white)](micommunity/CHANGELOG.md)
 
 ---
 
