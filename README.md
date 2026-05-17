@@ -1,22 +1,30 @@
-# MiCommunityTool
+<div align="center">
 
-[✓] Submitting a request for bootloader unlocking permission.
+<a href="https://github.com/offici5l/MiCommunityTool/releases/latest">
+  <img src="https://img.shields.io/badge/migate-%23FF6900?style=flat&logo=xiaomi&logoColor=white" alt="MiCommunityTool" width="100"/>
+</a>
+
+**Mi Community gateway for Python**
+
+---
+
+[![Version](https://img.shields.io/pypi/v/micommunity?label=Version&labelColor=black&color=brightgreen)](https://pypi.org/project/micommunity/)
+[![Changelog](https://img.shields.io/badge/Changelog-blue?style=flat&logoColor=white)](micommunity/CHANGELOG.md)
+
+---
+
+</div>
+
+---
+
+- [Apply](./script/README.md) A script that automatically submits the Xiaomi bootloader unlock request to get permission.
+- [Library](./micommunity/README.md) A Python library for interacting with Mi Community APIs.
+
+---
 
 
-## For Windows, Linux, MacOS :
-Install Python3,
-Download [MiCommunityTool](https://github.com/offici5l/MiCommunityTool/releases/latest/download/MiCommunityTool.py) and run it
+<div align="center">
 
-## For Android(termux): 
-```
-pkg install python3
-```
-```
-curl -sSL https://github.com/offici5l/MiCommunityTool/releases/latest/download/MiCommunityTool.py -o "$PREFIX/bin/micommunit" && chmod +x "$PREFIX/bin/micommunit"
-```
-```
-micommunit
-```
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
-### Disclaimer
-***Use the MiCommunityTool at your own risk. The developer is not responsible for any damage or issues resulting from its use.***
+</div>

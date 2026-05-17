@@ -1,0 +1,33 @@
+[project]
+version = "1.5.4"
+name = "micommunity"
+description = "for Interacting with the Mi Community"
+authors = [{name = "offici5l"}]
+license = "MIT"
+
+keywords = ["xiaomi", "micommunity", "MiCommunityTool", "bootloader", "unlock", "MIUI", "HyperOS"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+requires-python = ">=3.7"
+
+dependencies = [
+    "migate >= 1.1.5",
+    "ntplib",
+    "pytz",
+]
+
+[project.urls]
+Repository = "https://github.com/offici5l/MiCommunityTool"
+"Bug Tracker" = "https://github.com/offici5l/MiCommunityTool/issues"
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
