@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import time, threading, ntplib, pytz, requests
 
 from datetime import datetime, timedelta, timezone
