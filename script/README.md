@@ -17,7 +17,7 @@ python apply.py
 ### How It Works
 
 Xiaomi opens a limited daily quota at exactly **00:00 Beijing Time (GMT+8)**.  
-This script automates the submission process, sending your request at the optimal moment instead of relying on manual timing.
+This script automates the submission process, sending your request automatically
 
 When you run the script, it will ask you to enter a **delay in milliseconds**.  
 
