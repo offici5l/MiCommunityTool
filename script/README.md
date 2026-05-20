@@ -2,14 +2,14 @@
 
 **Automatically submits the bootloader unlock permission request to Mi Community.**
 
-### Install Dependencies:
-```bash
-pip install micommunity
-```
+### Installation & Execution
 
-Download the file [apply.py](https://raw.githubusercontent.com/offici5l/MiCommunityTool/main/script/apply.py) and run it:
 ```bash
-python apply.py
+pip install miapply
+```
+Then just run it from anywhere using:
+```
+miapply
 ```
 
 ---
