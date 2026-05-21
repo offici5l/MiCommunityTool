@@ -31,7 +31,12 @@ Xiaomi accepts only a very limited number of requests per day, and thousands of 
 
 **Important Notes:**
 
-- **Termux:** Set **Battery & Data usage** to **"Unrestricted"** and enable **Wakelock**.
+- **Termux:** Set **Battery & Data usage** to **"Unrestricted"** and enable **Wakelock**. You can do this by running:
+```
+termux-wake-lock
+```
+Or simply pull down your notification drawer and tap **"Acquire wakelock"** on the Termux notification.*
+
 - **PC:** Make sure your device does not enter **Sleep** or **Hibernate** mode.
 
 ---
