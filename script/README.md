@@ -39,4 +39,3 @@ To prevent this temporary ban, strictly follow these guidelines before and durin
  * **Stay on One Connection:** Keep your device connected to a single, stable network provider throughout the entire execution.
 ### Disclaimer
 Please use this script on one account only. Using it on multiple accounts to claim extra slots is unfair to other users.
-```
