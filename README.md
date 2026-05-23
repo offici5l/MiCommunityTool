@@ -8,7 +8,7 @@
 
 ---
 
-- [Apply](./script/README.md) A script that automatically submits the Xiaomi bootloader unlock permission request
+- [Apply](./miapply/README.md) A cli that automatically submits the Xiaomi bootloader unlock permission request
 - [Library](./micommunity/README.md) A Python library for interacting with Mi Community APIs.
 
 ---

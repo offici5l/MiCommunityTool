@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miapply"
+version = "1.0.0"
+description = "A cli that automatically submits the Xiaomi bootloader unlock permission request"
+requires-python = ">=3.7"
+dependencies = [
+    "micommunity",
+    "ntplib",
+    "pytz",
+]
+
+[project.scripts]
+miapply = "miapply:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

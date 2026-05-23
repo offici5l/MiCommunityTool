@@ -10,7 +10,7 @@ def retry(fn):
     while True:
         try:
             return fn()
-        except:
+        except Exception:
             pass
 
 get_headers()
@@ -71,8 +71,8 @@ while True:
     response = retry(lambda: session.post(APPLY_URL, headers=headers, json={"is_retry": True}, timeout=15))
 
     server_ts = response.json().get('ts', 0)
-    server_time = datetime.fromtimestamp(server_ts, timezone.utc).astimezone(beijing_tz)
-
-    print(f"[Server response At]: {server_time.strftime('%H:%M:%S')} (GMT+8)\n\n")
+    if server_ts:
+        server_time = datetime.fromtimestamp(server_ts, timezone.utc).astimezone(beijing_tz)
+        print(f"[Server response At]: {server_time.strftime('%H:%M:%S')} (GMT+8)\n\n")
 
     print(apply(response).get('message'))
