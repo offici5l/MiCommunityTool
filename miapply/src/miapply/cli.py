@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+print("\nHow It Works: https://viewmd.github.io/offici5l/MiCommunityTool/refs/heads/main/miapply/README\n")
+
 import time, threading, ntplib, pytz, requests
 
 from datetime import datetime, timedelta, timezone
