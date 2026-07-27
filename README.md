@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/offici5l/MiCommunityTool/releases/latest">
+<a href="https://github.com/MiForge/MiCommunityTool/releases/latest">
   <img src="https://img.shields.io/badge/MiCommunityTool-%23FF6900?style=flat&logo=xiaomi&logoColor=white" alt="MiCommunityTool" width="200"/>
 </a>
 
