@@ -20,8 +20,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/offici5l/MiCommunityTool"
-"Bug Tracker" = "https://github.com/offici5l/MiCommunityTool/issues"
+Repository = "https://github.com/MiForge/MiCommunityTool"
 
 [build-system]
 requires = ["setuptools>=77", "wheel"]
